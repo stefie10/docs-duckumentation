@@ -39,7 +39,7 @@ TODO: re-make image
 
 ### Checkout your fork locally
 
-Check out the forked repository as you would do normally.
+Check out the forked repository as you would do normally. 
 
 ### Do your edits
 
@@ -52,6 +52,12 @@ Compile using:
 ```
 $ make compile-docker
 ```
+
+
+### Inspect your changes
+
+Point your web browser to ??? to inspect the changes.
+
 
 ### Commit and push
 

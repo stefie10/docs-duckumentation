@@ -53,6 +53,17 @@ Compile using:
 $ make compile-docker
 ```
 
+Note that you can also compile locally without docker with:
+```
+$ make compile-native
+```
+
+For this to work you must install the build tools locally.  You can do this with
+```
+$ pip install pymcdp_devel
+```
+(Except when I try this, it gives an error about unrecognized options; I suspect pip is installing the wrong version of pymcdp.  Please update so I have instructiosn to build natively.  In this way I can set up a development environment to push pull requests to pymcdp.)
+
 ### Commit and push
 
 Commit and push as you would do normally.
